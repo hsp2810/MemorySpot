@@ -1,0 +1,92 @@
+.profile-container {
+  display: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-details strong {
+  font-weight: bold;
+}
+
+.edit-user-btn {
+  margin-top: 20px;
+}
+
+.friend-count {
+  cursor: pointer;
+}
+
+.friend-list-container {
+  width: 300px;
+}
+
+.friend-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.friend-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.friend-list-item:hover {
+  background-color: #e1e1e1;
+}
+
+.friend-list-item .friend-name {
+  font-weight: bold;
+}
+
+.friend-list-item .remove-friend-btn {
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/*
+The UserProfile component does not display changes made in the EditUser component because they are separate components with their 
+own state. When the user edits their profile in the EditUser component, the changes are saved to the backend and the user object 
+in the UserProfile component does not automatically update.
+
+To display the updated information in the UserProfile component, you need to either:
+
+Pass down the updated user object as a prop to the UserProfile component from the parent component that is managing the state of 
+both the EditUser and UserProfile components.
+
+Fetch the updated user information from the backend again in the UserProfile component when it is rendered, using a useEffect hook
+ to fetch the data once the component mounts.
+
+*/

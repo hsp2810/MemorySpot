@@ -1,0 +1,37 @@
+.mapboxgl-ctrl-directions-destination.mapboxgl-ctrl {
+  display: none !important;
+}
+
+.mapboxgl-ctrl-directions-origin.mapboxgl-ctrl {
+  display: none !important;
+}
+
+.mapbox-directions-step-distance {
+  font-size: 0.75rem;
+  color: orange;
+}
+
+.mapbox-directions-step-distance {
+  margin: 0.25rem 0px;
+}
+
+.mapbox-directions-step-maneuver {
+  background-color: #ffa50036;
+  cursor: pointer;
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+.mapbox-directions-step:first-child .mapbox-directions-step-maneuver {
+  background-color: rgba(0, 97, 255, 0.69) !important;
+  color: white;
+  margin-top: 1rem;
+}
+
+.mapbox-directions-step:last-child .mapbox-directions-step-maneuver {
+  background-color: #e53e3e !important;
+  color: white;
+}

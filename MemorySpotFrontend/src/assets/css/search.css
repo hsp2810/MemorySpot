@@ -1,0 +1,64 @@
+/* .SearchPop {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .search-container {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .close {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+  .dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orange;
+  
+  }
+  
+  .dropdown:empty {
+    border: none;
+    
+  }
+  
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+   
+  }
+  
+  input {
+    width: 220px;className="button" onClick={() => setOpen(o => !o)}
+   
+  }
+  
+  .search-inner {
+    display: flex;
+   
+  }
+   */

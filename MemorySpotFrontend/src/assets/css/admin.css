@@ -1,0 +1,65 @@
+/* Define styles for the admin container */
+.admin-container {
+ 
+    background-color: #252525;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .admin-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Define styles for the manage section */
+  .admin-manage {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .admin-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .admin-tablist {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-tab {
+    background-color: #444;
+    color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .admin-tab[aria-selected="true"] {
+    background-color: #252525;
+  }
+  
+  .admin-tabpanel {
+    padding: 1rem;
+    background-color: #bfb9b9;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+ /* Make text inside list items white */
+.admin-tabpanel .users li {
+    color: rgb(109, 25, 25);
+  }
+
+  /* Center the admin panel */
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+ 

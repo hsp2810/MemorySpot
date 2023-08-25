@@ -1,0 +1,26 @@
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.popup-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-info li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.popup-info li i {
+  margin-right: 5px;
+}

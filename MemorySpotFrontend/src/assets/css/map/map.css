@@ -1,0 +1,18 @@
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}
+
+.mapboxgl-popup-content {
+  padding: 0 !important;
+  border-radius: 1rem !important;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: 1.2rem !important;
+  padding: 10px !important;
+}
+
+.mapboxgl-popup-close-button:hover {
+  border-top-right-radius: 1rem !important;
+  background-color: #e13d3d;
+}

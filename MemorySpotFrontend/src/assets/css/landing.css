@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.item-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.mar-8 {
+  margin: 8rem;
+}
+.mar-7 {
+  margin: 7rem;
+}
+.mar-2 {
+  margin: 2rem;
+}
+.mart-2 {
+  margin-top: 2rem;
+}
+.mart-6 {
+  margin-top: 6rem;
+}
+.mart-5 {
+  margin-top: 5rem;
+}
+.mart-2 {
+  margin-top: 2rem;
+}
+.martb-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.martb-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.martb-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.martb-5 {
+  margin-right: 5rem;
+}
+
+.w-15v {
+  width: 15vw;
+}
+.w-12v {
+  width: 15vw;
+}
+.w-25v {
+  width: 25vw;
+}
+.w-35v {
+  width: 35vw;
+}
+.pad-1 {
+  padding: 1rem;
+}
+.plr-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pad-2 {
+  padding: 2rem;
+}
+.pad-5 {
+  padding: 5rem;
+}
+.padl-5 {
+  padding-left: 5rem;
+}
+.padt-2 {
+  padding-top: 2rem;
+}
+.padtb-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.p-15 {
+  padding: 5rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.width-50vw {
+  width: 50vw;
+}
+
+.m-content {
+  margin: 1.5rem 10rem;
+}
+
+.fade-effect1 {
+  display: block;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(#000),
+    to(#fff)
+  );
+}
+
+.navbar-links-container {
+  flex-grow: 0.5;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+  margin-left: 3rem;
+}
+.nav-logo-container {
+  margin-left: 2rem;
+}
+.primary-button {
+  padding: 0.9rem 1.75rem;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.fullNav {
+  height: 4rem;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.primary-heading {
+  font-size: 2.4rem;
+  color: #4c4c4c;
+  max-width: 600px;
+}
+.secondary-heading {
+  font-size: 1.4rem;
+  color: #4c4c4c;
+  max-width: 600px;
+  font-weight: 550;
+}
+.primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: #6a6a6a;
+}
+/* .home-image-section{
+  border-radius: 4rem;
+} */
+.home-bannerImage-container {
+  position: absolute;
+  top: -100px;
+  right: -170px;
+  z-index: -2;
+  max-width: 35rem;
+}
+.primary-subheading {
+  font-weight: 700;
+  color: #484848;
+  font-size: 1.15rem;
+}
+
+.watch-video-button {
+  margin-left: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #484848;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-background-image-container {
+  position: absolute;
+  left: -150px;
+  z-index: -2;
+}
+/* .about-section-container{
+  margin: 8rem;
+} */
+.footer-logo {
+  width: 9rem;
+  margin-top: -3rem;
+}
+
+.footer-section-columns {
+  min-width: 190px;
+}
+.footer-section-columns span {
+  margin: 0.25rem 0rem;
+  font-weight: 600;
+  color: #4c4c4c;
+  cursor: pointer;
+}
+
+.footer-section-one {
+  margin-right: 4rem;
+}
+.footer-wrapper {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.work-section-info {
+  width: 13rem;
+  max-height: 25rem;
+  background-color: rgb(220, 216, 216);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: #505050;
+  margin: 1rem 2rem;
+}
+.testimonial-section-bottom {
+  margin-top: 2rem;
+  background-color: rgb(207, 207, 207);
+  padding: 1.5rem 2rem;
+  max-width: 750px;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.testimonials-stars-container svg {
+  margin: 0rem 0.25rem;
+  font-size: 1.5rem;
+  color: #fe9e0d;
+}
+
+.contact-form-container {
+  background-color: rgb(231, 231, 231);
+  max-width: 700px;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.contact-form-container input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(231, 231, 231);
+}
